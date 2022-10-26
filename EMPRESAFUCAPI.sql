@@ -21,7 +21,7 @@ CREATE TABLE `funcionario` (
   `idfuncionario` int NOT NULL AUTO_INCREMENT,
   `senha` int NOT NULL,
   `nome_funcionario` varchar(45) DEFAULT NULL,
-  `cpf` int DEFAULT NULL,
+  `cpf` varchar(11) DEFAULT NULL,
   `salario` float DEFAULT NULL,
   `id_cargo` int NOT NULL,
   PRIMARY KEY (`idfuncionario`),
